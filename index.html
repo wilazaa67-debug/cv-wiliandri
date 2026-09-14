@@ -1,1 +1,225 @@
 
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CV ATS Online Wiliandri - Pelajar SMK RPL">
+  <title>CV ATS - Wiliandri</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #f3f4f6;
+      color: #222;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 850px;
+      margin: 30px auto;
+      background: white;
+      padding: 45px 55px;
+      box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+    }
+
+    header {
+      border-bottom: 2px solid #222;
+      padding-bottom: 20px;
+      margin-bottom: 25px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 36px;
+      letter-spacing: 2px;
+    }
+
+    .job-title {
+      font-size: 16px;
+      margin-top: 5px;
+      color: #444;
+    }
+
+    .contact {
+      margin-top: 12px;
+      font-size: 14px;
+      overflow-wrap: anywhere;
+    }
+
+    section {
+      margin-bottom: 25px;
+    }
+
+    h2 {
+      font-size: 17px;
+      border-bottom: 1px solid #bbb;
+      padding-bottom: 6px;
+      margin-bottom: 12px;
+      letter-spacing: 1px;
+    }
+
+    h3 {
+      margin-bottom: 2px;
+      font-size: 16px;
+    }
+
+    p {
+      margin-top: 5px;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin-top: 5px;
+    }
+
+    .project {
+      margin-bottom: 15px;
+    }
+
+    .buttons {
+      max-width: 850px;
+      margin: 20px auto;
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    button {
+      padding: 12px 18px;
+      background: #222;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    button:hover {
+      background: #444;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        margin: 0;
+        padding: 30px 22px;
+        box-shadow: none;
+      }
+
+      h1 {
+        font-size: 29px;
+      }
+    }
+
+    @media print {
+      body {
+        background: white;
+      }
+
+      .container {
+        margin: 0;
+        max-width: none;
+        padding: 0;
+        box-shadow: none;
+      }
+
+      .buttons {
+        display: none;
+      }
+
+      @page {
+        size: A4;
+        margin: 18mm;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="container">
+
+    <header>
+      <h1>WILIANDRI</h1>
+
+      <div class="job-title">
+        Pelajar SMK | Rekayasa Perangkat Lunak
+      </div>
+
+      <div class="contact">
+        Email: andriwili30@gmail.com |
+        No. HP: 08388855487
+      </div>
+    </header>
+
+    <section>
+      <h2>PROFIL</h2>
+
+      <p>
+        Saya adalah siswa SMKN 2 SUBANG jurusan
+        Rekayasa Perangkat Lunak (RPL) yang sedang
+        belajar coding dan desain Canva.
+        Saya memiliki ketertarikan pada pembuatan
+        poster dan pengembangan keterampilan digital.
+      </p>
+    </section>
+
+    <section>
+      <h2>PENDIDIKAN</h2>
+
+      <h3>SMKN 2 SUBANG</h3>
+
+      <p>
+        Jurusan Rekayasa Perangkat Lunak (RPL)
+      </p>
+    </section>
+
+    <section>
+      <h2>KEAHLIAN</h2>
+
+      <ul>
+        <li>Canva</li>
+        <li>Pembuatan poster</li>
+        <li>Microsoft Word</li>
+        <li>Belajar coding dasar</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>PROYEK DAN PENGALAMAN</h2>
+
+      <div class="project">
+        <h3>Pembuatan Poster</h3>
+
+        <p>
+          Membuat poster menggunakan Canva
+          sebagai latihan desain.
+        </p>
+      </div>
+
+      <div class="project">
+        <h3>Pengolahan Dokumen</h3>
+
+        <p>
+          Mengetik dan mengolah dokumen
+          menggunakan Microsoft Word.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <div class="buttons">
+    <button onclick="window.print()">
+      Cetak / Simpan PDF
+    </button>
+  </div>
+
+</body>
+</html>
